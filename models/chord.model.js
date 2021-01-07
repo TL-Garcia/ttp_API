@@ -20,13 +20,11 @@ const chordSchema = new mongoose.Schema(
 		},
 	},
 	{
-		timestamps: true,
+		timestamps: false,
 		toJSON: {
 			transform: (document, toReturn) => {
 				toReturn.id = document._id;
 				delete toReturn.__v;
-				delete toReturn.createdAt;
-				delete toReturn.updatedAt;
 				return toReturn;
 			},
 		},
