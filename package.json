@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/TL-Garcia/ttp_API#readme",
   "dependencies": {
+    "chord-constructor": "^1.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.11.8"
