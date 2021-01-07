@@ -18,9 +18,6 @@ const chordSchema = new mongoose.Schema(
 			type: [String],
 			enum: ['7', '9', '11', '13'],
 		},
-		music: {
-			type: String,
-		},
 	},
 	{
 		timestamps: true,
